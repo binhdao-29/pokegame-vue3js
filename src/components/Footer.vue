@@ -15,6 +15,7 @@ export default {};
 
 <style lang="scss">
 .footer-container {
+  margin-top: 3rem;
   margin-bottom: 1rem;
 
   @media screen and (min-width: 576px) {
