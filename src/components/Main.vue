@@ -48,7 +48,7 @@ export default {
 .main-container {
   width: 100%;
   height: 100%;
-  padding: 5rem 1rem 3rem;
+  padding: 5rem 0 3rem;
 
   @media screen and (min-width: 576px) {
     height: 100vh;

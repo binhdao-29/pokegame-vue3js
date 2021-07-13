@@ -15,6 +15,7 @@ export default {};
 
 <style lang="scss">
 .footer-container {
+  padding: 0 1.2rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
 
