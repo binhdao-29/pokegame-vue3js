@@ -1,0 +1,25 @@
+/* Variable CSS */
+:root {
+  --dark: #212121;
+  --light: #f3f3f3;
+  --text-font: 'Odibee Sans', cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--text-font);
+  font-size: 10px;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.subheading {
+  font-size: 2rem;
+}
