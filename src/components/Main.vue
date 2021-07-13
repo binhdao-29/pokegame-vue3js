@@ -47,7 +47,12 @@ export default {
 <style lang="scss">
 .main-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  padding: 2rem 0;
+
+  @media screen and (min-width: 576px) {
+    height: 100vh;
+  }
 
   background-image: linear-gradient(
       0deg,

@@ -49,7 +49,7 @@ export default {
   height: 6rem;
   margin: 0.8rem;
 
-  perspective: 20rem;
+  perspective: 40rem;
 
   @media screen and (min-width: 576px) {
     width: 6rem;

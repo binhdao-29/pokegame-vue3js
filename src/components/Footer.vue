@@ -1,12 +1,11 @@
 <template>
   <div class="footer-container">
-    <div class="subheading">The Pokemon Mememories games by BinhChan -</div>
-    <a
-      class="subheading"
-      href="https://www.facebook.com/phanhhh1910"
-      target="_blank"
-      >View more</a
-    >
+    <div class="subheading">
+      The Pokemon Mememories games by BinhChan
+      <a href="https://www.facebook.com/phanhhh1910" target="_blank"
+        >View more
+      </a>
+    </div>
   </div>
 </template>
 
@@ -16,9 +15,12 @@ export default {};
 
 <style lang="scss">
 .footer-container {
-  display: flex;
-  position: fixed;
-  bottom: 1rem;
+  margin-bottom: 1rem;
+
+  @media screen and (min-width: 576px) {
+    position: absolute;
+    bottom: 0;
+  }
 
   .subheading {
     font-size: 1.5rem;
