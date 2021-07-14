@@ -3,7 +3,7 @@
     <div class="heading">✨ Congratulations ✨</div>
     <div class="content">
       <div class="subheading">Time: {{ Math.round(timer / 1000) }} seconds</div>
-      <div class="subheading">Score: {{ Math.round(timer / 190) }}</div>
+      <div class="subheading">Score: {{ 190 - Math.round(timer / 1900) }}</div>
     </div>
     <button class="btn-play" @click="onStartAgain">Play again</button>
   </div>
